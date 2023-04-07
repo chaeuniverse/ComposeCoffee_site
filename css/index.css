@@ -1,0 +1,53 @@
+* {
+    outline: 1px solid green;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.h_logo {
+    width: 350px;
+    padding: 30px 50px;
+}
+
+.secTitle {
+    background: url(../img/mainBackground.jpg) no-repeat fixed center center/cover;
+    padding: 230px 0;
+    text-align: center;
+    color: #fff;
+}
+
+.notice {
+    background: url(../img/noticeBackground.jpg) no-repeat fixed center center/cover;
+    width: 100%;
+    height: 150%;
+    text-align: center;
+    color: #fff;
+}
+
+.video video {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
+
+.mainSlide {
+    width: 100%;
+    height: 60vh;
+}
+
+.post01 {
+    background: url(../img/mainslide01.jpg) no-repeat fixed center center/cover;
+}
+
+.mainSlide .post02 {
+    background: url(../img/mainslide02.jpg) no-repeat center center/cover;
+}
+
+.mainSlide .post03 {
+    background: url(../img/mainslide03.jpg) no-repeat center center/cover;
+}
